@@ -1,0 +1,7 @@
+E:\算法C#实现\Searching\Searching\obj\Debug\Searching.csprojAssemblyReference.cache
+E:\算法C#实现\Searching\Searching\obj\Debug\Searching.csproj.CoreCompileInputs.cache
+E:\算法C#实现\Searching\Searching\bin\Debug\Searching.exe.config
+E:\算法C#实现\Searching\Searching\bin\Debug\Searching.exe
+E:\算法C#实现\Searching\Searching\bin\Debug\Searching.pdb
+E:\算法C#实现\Searching\Searching\obj\Debug\Searching.exe
+E:\算法C#实现\Searching\Searching\obj\Debug\Searching.pdb

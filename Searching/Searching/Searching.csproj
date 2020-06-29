@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE8A4428-FDCB-499F-8490-17E8535644D1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Searching</RootNamespace>
+    <AssemblyName>Searching</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcyclicLP.cs" />
+    <Compile Include="AcyclicSP.cs" />
+    <Compile Include="Alphabet.cs" />
+    <Compile Include="Bag.cs" />
+    <Compile Include="BellmanFordSP.cs" />
+    <Compile Include="BinarySearchST.cs" />
+    <Compile Include="BreadthFirstPaths.cs" />
+    <Compile Include="BST.cs" />
+    <Compile Include="CC.cs" />
+    <Compile Include="Cycle.cs" />
+    <Compile Include="DepthFirstOrder.cs" />
+    <Compile Include="DepthFirstPaths.cs" />
+    <Compile Include="DepthFirstSearch.cs" />
+    <Compile Include="Digraph.cs" />
+    <Compile Include="DijkstraSP.cs" />
+    <Compile Include="DirectedCycle.cs" />
+    <Compile Include="DirectedDFS.cs" />
+    <Compile Include="DirectedEdge.cs" />
+    <Compile Include="Edge.cs" />
+    <Compile Include="EdgeWeightedDigraph.cs" />
+    <Compile Include="EdgeWeightedGraph.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="HeapSort.cs" />
+    <Compile Include="IndexMinPQ.cs" />
+    <Compile Include="Insertion.cs" />
+    <Compile Include="KosarajuSCC.cs" />
+    <Compile Include="KruskalMST.cs" />
+    <Compile Include="LazyPrimMST.cs" />
+    <Compile Include="LinearProbingHashST.cs" />
+    <Compile Include="LSD.cs" />
+    <Compile Include="MaxPQ.cs" />
+    <Compile Include="MergeSort.cs" />
+    <Compile Include="MinPQ.cs" />
+    <Compile Include="MSD.cs" />
+    <Compile Include="NonrecursiveBST.cs" />
+    <Compile Include="PrimMST.cs" />
+    <Compile Include="Queue.cs" />
+    <Compile Include="Quick.cs" />
+    <Compile Include="Quick3string.cs" />
+    <Compile Include="RedBlackBST.cs" />
+    <Compile Include="Selection.cs" />
+    <Compile Include="SeparateChainingHashST.cs" />
+    <Compile Include="SequentialSearchST.cs" />
+    <Compile Include="Shell.cs" />
+    <Compile Include="SparseVector.cs" />
+    <Compile Include="ST.cs" />
+    <Compile Include="Stack.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="Topological.cs" />
+    <Compile Include="TransitiveClosure.cs" />
+    <Compile Include="TrieST.cs" />
+    <Compile Include="TST.cs" />
+    <Compile Include="TwoColor.cs" />
+    <Compile Include="UF.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
